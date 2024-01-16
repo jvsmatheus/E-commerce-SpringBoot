@@ -1,14 +1,15 @@
-package br.com.matheus.naturaSSP.services;
+package br.com.matheus.naturaSSP.services.category;
 
 import br.com.matheus.naturaSSP.dao.CategoryDAO;
 import br.com.matheus.naturaSSP.models.Category;
+import br.com.matheus.naturaSSP.services.category.ICategoryService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 import java.util.ArrayList;
 
 @Component // Para ser injetável no código
-public class CategoryServiceImpl implements ICategoryService{
+public class CategoryServiceImpl implements ICategoryService {
 
     @Autowired
     private CategoryDAO dao;

@@ -1,7 +1,7 @@
 package br.com.matheus.naturaSSP.controllers;
 
 import br.com.matheus.naturaSSP.models.Category;
-import br.com.matheus.naturaSSP.services.ICategoryService;
+import br.com.matheus.naturaSSP.services.category.ICategoryService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

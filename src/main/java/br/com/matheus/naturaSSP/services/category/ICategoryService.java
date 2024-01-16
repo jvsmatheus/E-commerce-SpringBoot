@@ -1,4 +1,4 @@
-package br.com.matheus.naturaSSP.services;
+package br.com.matheus.naturaSSP.services.category;
 
 import br.com.matheus.naturaSSP.models.Category;
 import org.springframework.stereotype.Service;
